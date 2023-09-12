@@ -9,7 +9,9 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="Bayathandwa Day Care" />
+        <a href="#Home">
+          <img src={images.logo} alt="Bayathandwa Day Care" />
+        </a>
       </div>
       <ul className="app__navbar-links">
         {["Home", "About Us", "Our Programs", "Testimonials", "Contact Us"].map(

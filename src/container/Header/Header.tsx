@@ -5,7 +5,7 @@ import images from "../../constants/images";
 
 const Header = () => {
   return (
-    <header id="home" className="app__header app__flex">
+    <header id="Home" className="app__header app__flex">
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
@@ -26,7 +26,7 @@ const Header = () => {
             children, their families, and the communities we serve.
           </p>
           <div className="app__header-see-more">
-            <a href="#ourPrograms"><span className="see-more-span">See our key activities</span></a>
+            <a href="#Our Programs"><span className="see-more-span">See our key activities</span></a>
             <AiOutlineArrowRight />
           </div>
         </div>

@@ -2,7 +2,7 @@ import './AboutUs.scss';
 
 const AboutUs = () => {
     return (
-      <section>AboutUs</section>
+      <section id='About Us'>AboutUs</section>
     )
   }
   

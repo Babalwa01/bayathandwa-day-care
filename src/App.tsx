@@ -3,7 +3,7 @@ import {
   Footer,
   Header,
   OurPrograms,
-  Testimonial,
+  Testimonials,
 } from "./container";
 import { Navbar } from "./components";
 import './App.scss';
@@ -15,7 +15,7 @@ function App() {
         <Header />
         <AboutUs />
         <OurPrograms />
-        <Testimonial />
+        <Testimonials />
         <Footer />
       </section>
   );
