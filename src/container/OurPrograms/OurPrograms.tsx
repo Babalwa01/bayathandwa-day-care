@@ -2,7 +2,7 @@ import './OurPrograms.scss';
 
 const OurPrograms = () => {
   return (
-    <section>OurPrograms</section>
+    <section id='#ourPrograms'>OurPrograms</section>
   )
 }
 
