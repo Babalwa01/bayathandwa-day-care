@@ -1,7 +1,6 @@
 import "./Header.scss";
 import { motion } from "framer-motion";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { images } from "../../constants";
 
 const Header = () => {
   return (
