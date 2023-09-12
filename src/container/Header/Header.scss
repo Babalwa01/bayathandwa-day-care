@@ -13,6 +13,10 @@
   padding: 6rem 2rem 0;
   font-family: var(--font-base);
 
+  @media screen and (min-width: 1024px) {
+    padding-left: 4rem;
+  }
+
   @media screen and (min-width: 2000px) {
     padding-top: 8rem;
   }
