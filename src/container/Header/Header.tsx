@@ -1,6 +1,7 @@
 import "./Header.scss";
 import { motion } from "framer-motion";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import images from "../../constants/images";
 
 const Header = () => {
   return (
@@ -30,7 +31,7 @@ const Header = () => {
           </div>
         </div>
         <div className="app__header-image">
-          {/* <img src={images.elephant} alt="day care elephant" /> */}
+          <img src={images.header2} alt="day care elephant" />
         </div>
       </motion.div>
     </header>
