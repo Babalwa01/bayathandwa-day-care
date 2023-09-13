@@ -34,7 +34,7 @@ const AboutUs = () => {
           <span className="pink-text bold-text">positive difference</span> in
           the lives of our children through the support of the Sterkspruit
           community, the Department of Education, the Department of Social
-          Development, the Department of Health and National Lotteries Commission.
+          Development, the Department of Health, and the National Lotteries Commission.
         </p>
       </div>
     </section>
