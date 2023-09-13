@@ -1,3 +1,4 @@
+import { AiOutlineArrowRight } from "react-icons/ai";
 import images from "../../constants/images";
 import "./AboutUs.scss";
 
@@ -36,6 +37,10 @@ const AboutUs = () => {
           community, the Department of Education, the Department of Social
           Development, the Department of Health, and the National Lotteries Commission.
         </p>
+        <div className="app__aboutus-content_history-gallery">
+          <a href="#Gallery"><span className="gallery-span">See gallery</span></a>
+          <AiOutlineArrowRight />
+        </div>
       </div>
     </section>
   );
