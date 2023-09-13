@@ -30,7 +30,7 @@ const AboutUs = () => {
           <span className="pink-text">Our</span> History
         </h2>
         <p className="p__opensans">
-          Bayathandwa Day Care Centre was founded by Lucia Mbolekwa in 2015 and
+          Bayathandwa Day Care Centre was founded by Mrs. Nomsindisi Lucia Mbolekwa in 2015 and
           continues to make a{" "}
           <span className="pink-text bold-text">positive difference</span> in
           the lives of our children through the support of the Sterkspruit
