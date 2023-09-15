@@ -8,22 +8,22 @@ const activities = [
     image: images.header1,
   },
   {
-    title: "Hygiene, and primary health care activities from local clinic",
-    image: images.header1,
+    title: "Primary health care activities from local clinic, and Hygiene",
+    image: images.clinic,
   },
   {
-    title: "Provision of nutritional meals",
-    image: images.header1,
+    title: "Provision of nutritional meals three times a day",
+    image: images.meals,
   },
   {
-    title: "Transportation to and from homes",
-    image: images.header1,
+    title: "Transportation of children to and from homes",
+    image: images.transport,
   },
 ];
 
 const OurPrograms = () => {
   return (
-    <section id="Our Programs" className="app__activities-main">
+    <section id="Our Activities" className="app__activities-main">
       <h2>
         Our <span className="green-text">Key Activities</span>
       </h2>
