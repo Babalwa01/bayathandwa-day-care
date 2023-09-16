@@ -13,20 +13,30 @@ const Header = () => {
       >
         <div className="app__header-heading">
           <h1>
-            <span className="purple-text">happy</span><br />
-            <span className="green-text">happens</span><br />
+            <span className="purple-text">happy</span>
+            <br />
+            <span className="green-text">happens</span>
+            <br />
             <span className="orange-text">here.</span>
-          </h1> 
+          </h1>
           <p>
-            From <span className="purple-text bold-text">Infant through to preschool,</span> we make early
-            education and daycare joyful, engaging and fun so children are happy
-            to <span className="purple-text bold-text">learn, play and grow.</span>
+            From{" "}
+            <span className="purple-text bold-text">
+              Infant through to preschool,
+            </span>{" "}
+            we make early education and daycare joyful, engaging and fun so
+            children are happy to{" "}
+            <span className="blue-text bold-text">learn,</span>{" "}
+            <span className="green-text bold-text">play</span> and{" "}
+            <span className="purple-text bold-text">grow.</span>
             <br />
             Our mission is to make a positive difference in the lives of our
-            children, their families, and the communities we serve.
+            children, their families, and the community we serve.
           </p>
           <div className="app__header-see-more">
-            <a href="#Our Activities"><span className="see-more-span">See our key activities</span></a>
+            <a href="#Our Activities">
+              <span className="see-more-span">See our key activities</span>
+            </a>
             <AiOutlineArrowRight />
           </div>
         </div>
