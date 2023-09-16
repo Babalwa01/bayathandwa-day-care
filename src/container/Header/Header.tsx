@@ -26,7 +26,7 @@ const Header = () => {
             children, their families, and the communities we serve.
           </p>
           <div className="app__header-see-more">
-            <a href="#Our Programs"><span className="see-more-span">See our key activities</span></a>
+            <a href="#Our Activities"><span className="see-more-span">See our key activities</span></a>
             <AiOutlineArrowRight />
           </div>
         </div>
