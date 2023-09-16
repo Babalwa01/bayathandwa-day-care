@@ -22,7 +22,7 @@ const Header = () => {
           <p>
             From{" "}
             <span className="purple-text bold-text">
-              Infant through to preschool,
+              infant through to pre-school,
             </span>{" "}
             we make early education and daycare joyful, engaging and fun so
             children are happy to{" "}
