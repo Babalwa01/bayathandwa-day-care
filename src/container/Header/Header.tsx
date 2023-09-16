@@ -31,7 +31,7 @@ const Header = () => {
             <span className="purple-text bold-text">grow.</span>
             <br />
             Our mission is to make a positive difference in the lives of our
-            children, their families, and the community we serve.
+            children, their families, and the communities we serve.
           </p>
           <div className="app__header-see-more">
             <a href="#Our Activities">
