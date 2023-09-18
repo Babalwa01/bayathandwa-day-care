@@ -33,7 +33,7 @@ const Gallery = () => {
   };
 
   return (
-    <section className="app__gallery flex__center">
+    <section id="Gallery" className="app__gallery flex__center">
       <div className="app__gallery-content">
         <h2 className="headtext__cormorant">Gallery</h2>
         <p className="p__opensans">
