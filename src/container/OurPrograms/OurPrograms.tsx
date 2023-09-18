@@ -30,7 +30,7 @@ const OurPrograms = () => {
       <p>
         Children love learning and playing, so we provide quality and effective
         early education, while promoting growth in a{" "}
-        <span className="green-text">safe, healthy and happy environment.</span>
+        <span className="green-text bold-text">safe, healthy and happy environment.</span>
       </p>
       <div className="app__activities">
         {activities.map((activity, index) => (
