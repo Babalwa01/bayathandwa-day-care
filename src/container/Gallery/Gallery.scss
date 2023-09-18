@@ -1,0 +1,150 @@
+.app__gallery {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem 0 1rem;
+  margin-top: 2.5rem;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    margin-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: row;
+  }
+} 
+
+.app__gallery-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 2rem;
+
+  h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--darkgray-color);
+  }
+
+  p {
+    color: var(--gray-color);
+    font-size: 1.1rem;
+  }
+
+  .app__gallery-download {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    height: 2.7rem;
+    width: 75%;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      width: 40%;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 85%;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 75%;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--white-color);
+    }
+
+    svg {
+      margin-right: 2%;
+    }
+  }
+}
+
+.app__gallery-images {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  position: relative;
+  margin-top: 3rem;
+
+  @media screen and (min-width: 1024px) {
+    max-width: 60%;
+  }
+}
+
+.app__gallery-images_container {
+  display: flex;
+  width: max-content;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.app__gallery-images_container::-webkit-scrollbar {
+  display: none;
+}
+
+.app__gallery-images_card {
+  position: relative;
+  min-width: 301px;
+  height: 447px;
+  margin-right: 2rem;
+}
+
+.gallery__image-icon {
+  position: absolute;
+  color: #fff;
+  font-size: 2rem;
+  opacity: 0.5;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.app__gallery-images_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+// .app__gallery-images_card:hover img {
+//   opacity: 0.35;
+// }
+
+// .app__gallery-images_card:hover .gallery__image-icon {
+//   opacity: 1;
+// }
+
+.app__gallery-images_arrows {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 5%;
+}
+
+.gallery__arrow-icon {
+  color: var(--white-color);
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: var(--blue-color);
+  border-radius: 5px;
+}
