@@ -15,12 +15,8 @@
     .app__footer-copyright {
         p {
             color: var(--gray-color);
-            font-size: 1rem;
+            font-size: 0.8rem;
             text-align: center;
-
-            @media screen and (min-width: 1024px) {
-                font-size: 0.9rem;
-            }
         }
     }
 }
