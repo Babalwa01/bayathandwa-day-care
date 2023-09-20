@@ -4,6 +4,7 @@ import {
   Header,
   OurPrograms,
   Gallery,
+  ContactUs,
 } from "./container";
 import { Navbar } from "./components";
 import './App.scss';
@@ -16,6 +17,7 @@ function App() {
         <AboutUs />
         <OurPrograms />
         <Gallery />
+        <ContactUs />
         <Footer />
       </section>
   );
