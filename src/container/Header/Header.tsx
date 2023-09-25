@@ -28,10 +28,7 @@ const Header = () => {
             children are happy to{" "}
             <span className="blue-text bold-text">learn,</span>{" "}
             <span className="green-text bold-text">play</span> and{" "}
-            <span className="purple-text bold-text">grow.</span>
-            <br />
-            Our mission is to make a positive difference in the lives of our
-            children, their families, and the communities we serve.
+            <span className="purple-text bold-text">grow</span>.
           </p>
           <div className="app__header-see-more">
             <a href="#Our Activities">
