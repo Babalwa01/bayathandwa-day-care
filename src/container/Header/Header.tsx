@@ -22,9 +22,9 @@ const Header = () => {
           <p>
             From{" "}
             <span className="purple-text bold-text">
-              infant through to pre-school,
+              0 to 5 years old,
             </span>{" "}
-            we make early education and daycare joyful, engaging and fun so
+            we make early education and day care joyful, engaging and fun so
             children are happy to{" "}
             <span className="blue-text bold-text">learn,</span>{" "}
             <span className="green-text bold-text">play</span> and{" "}
