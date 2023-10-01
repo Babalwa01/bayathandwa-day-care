@@ -60,7 +60,7 @@
         }
       }
 
-      .app__aboutus-history-gallery {
+      .app__aboutus-gallery {
         background-color: var(--pink-color);
         color: var(--white-color);
         height: 2.7rem;
@@ -95,7 +95,7 @@
         }
       }
     }
-  
+
     .app__aboutus-image {
       width: 100%;
 
@@ -107,16 +107,42 @@
         padding-left: 2rem;
         padding-right: 2rem;
       }
-  
+
       img {
         max-width: 100%;
       }
-
-      
     }
   }
 
-  
+  .app__aboutus-history {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+    @media screen and (min-width: 1024px) {
+      flex-direction: row;
+      margin-top: 0rem;
+    }
+
+    .app__aboutus-history-image {
+      display: none;
+      flex-basis: 50%;
+
+      @media screen and (min-width: 1024px) {
+        display: flex;
+      }
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    p {
+      @media screen and (min-width: 1024px) {
+        flex-basis: 50%;
+      }
+    }
+  }
 
   // @media screen and (min-width: 768px) and (max-width: 1023px) {
   //   padding-left: 4rem;

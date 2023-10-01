@@ -17,11 +17,13 @@ const AboutUs = () => {
             <span className="pink-text bold-text">
               Early Childhood Development
             </span>{" "}
-            from 0 to 5 years. It is registered with the provincial Department
-            of Social Development as a partial care centre, and the Department
-            of Health for compliance with health standards.
+            from 0 to 5 years. It was founded by Mrs. Lucia Mbolekwa in 2015 and
+            is located at{" "}
+            <span className="pink-text bold-text">Dibinkonzo Village</span>,
+            Ward 11 in Sterkspruit,{" "}
+            <span className="pink-text bold-text">Eastern Cape</span>.
           </p>
-          <div className="app__aboutus-history-gallery">
+          <div className="app__aboutus-gallery">
             <a href="#Gallery">
               <span className="gallery-span">See gallery</span>
             </a>
@@ -32,48 +34,31 @@ const AboutUs = () => {
           <img src={images.about01} alt="Bayathandwa day care" />
         </div>
       </motion.div>
-
-      <div className="app__aboutus-history"></div>
+      <div className="app__aboutus-history">
+        <div className="app__aboutus-history-image">
+          <img src={images.about02} alt="Bayathandwa day care" />
+        </div>
+        <p className="p__opensans">
+          Founded by Mrs. Lucia Mbolekwa in 2017, Bayathandwa is registered with
+          the provincial Department of Social Development as a{" "}
+          <span className="pink-text bold-text">partial care centre</span>, and
+          the Department of Health for compliance with health standards.
+          <br /> <br />
+          Through the{" "}
+          <span className="pink-text bold-text">continued support</span> of the
+          Sterkspruit community, the Local municipality, National Lotteries
+          Commission, Shoprite stores, the Departments of Education, Social
+          Development, Health, and Labour, we continue to make a{" "}
+          <span className="pink-text bold-text">positive difference</span> in
+          the lives of children.
+        </p>
+      </div>
       <div className="app__aboutus-mission"></div>
       <div className="app__aboutus-vision"></div>
       <div className="app__aboutus-values"></div>
 
       <div className="app__aboutus-about">
-        <div className="app__aboutus-about-content">
-          <p className="p__opensans">
-            <br />
-            Founded by Mrs. Lucia Mbolekwa in 2017, it is located at{" "}
-            <span className="pink-text bold-text">Dibinkonzo Village</span>,
-            Ward 11 in Sterkspruit, Senqu Sub-District, Joe Gqabi District in
-            the Eastern Cape.{" "}
-            <span className="small-medium">
-              Through the continued support of the Sterkspruit community, the
-              Departments of Education, Social Development, Health, Labour, the
-              Local municipality, and donations from the National Lotteries
-              Commission together with Shoprite stores, we continue to make a{" "}
-              <span className="pink-text bold-text">positive difference</span>{" "}
-              in the lives of children.
-            </span>
-          </p>
-          <p className="large-xlarge">
-            <br />
-            Through the continued support of the Sterkspruit community, the
-            Departments of Education, Social Development, Health, Labour, the
-            Local municipality, and donations from the National Lotteries
-            Commission together with Shoprite stores, we continue to make a{" "}
-            positive difference in the lives of children.
-          </p>
-        </div>
-      </div>
-      <div className="app__aboutus-history">
-        <p className="p__opensans">
-          Through the continued support of the Sterkspruit community, the
-          Departments of Education, Social Development, Health, Labour, the
-          Local municipality, and donations from the National Lotteries
-          Commission together with Shoprite stores, we continue to make a{" "}
-          <span className="pink-text bold-text">positive difference</span> in
-          the lives of children.
-        </p>
+        <div className="app__aboutus-about-content"></div>
       </div>
       <div className="app__aboutus-mission"></div>
       <div className="app__aboutus-vision"></div>
