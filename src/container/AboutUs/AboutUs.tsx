@@ -34,25 +34,30 @@ const AboutUs = () => {
           <img src={images.about01} alt="Bayathandwa day care" />
         </div>
       </motion.div>
+      <div className="app__aboutus-line"></div>
       <div className="app__aboutus-history">
         <div className="app__aboutus-history-image">
           <img src={images.about02} alt="Bayathandwa day care" />
         </div>
-        <p className="p__opensans">
-          Founded by Mrs. Lucia Mbolekwa in 2017, Bayathandwa is registered with
-          the provincial Department of Social Development as a{" "}
-          <span className="pink-text bold-text">partial care centre</span>, and
-          the Department of Health for compliance with health standards.
-          <br /> <br />
-          Through the{" "}
-          <span className="pink-text bold-text">continued support</span> of the
-          Sterkspruit community, the Local municipality, National Lotteries
-          Commission, Shoprite stores, the Departments of Education, Social
-          Development, Health, and Labour, we continue to make a{" "}
-          <span className="pink-text bold-text">positive difference</span> in
-          the lives of children.
-        </p>
+        <div className="app__aboutus-history-info">
+          <h3>Our <span className="pink-text">Background</span></h3>
+          <p className="p__opensans">
+            Bayathandwa is registered with the provincial Department of Social
+            Development as a{" "}
+            <span className="pink-text bold-text">partial care centre</span>,
+            and the Department of Health for compliance with health standards.
+            <br /> <br />
+            Through the{" "}
+            <span className="pink-text bold-text">continued support</span> of
+            the Sterkspruit community, the Local municipality, National
+            Lotteries Commission, Shoprite stores, the Departments of Education,
+            Social Development, Health, and Labour, we continue to make a{" "}
+            <span className="pink-text bold-text">positive difference</span> in
+            the lives of children.
+          </p>
+        </div>
       </div>
+      <div className="app__aboutus-line"></div>
       <div className="app__aboutus-mission"></div>
       <div className="app__aboutus-vision"></div>
       <div className="app__aboutus-values"></div>
