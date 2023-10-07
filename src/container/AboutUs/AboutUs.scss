@@ -124,13 +124,14 @@
       height: 3px;
       width: 100%;
       background-color: #f2f2f2;
-      // background-color: #faf7f7;
       margin-bottom: 3rem;
+      margin-top: 1.5rem;
       border-radius: 2px;
     }
 
     @media screen and (min-width: 1280px) {
-      margin-top: 3rem;
+      margin-top: 3.5rem;
+      margin-bottom: 3.5rem;
     }
   }
 
