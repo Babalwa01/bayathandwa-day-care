@@ -10,11 +10,18 @@ import docs from "../../constants/docs";
 import "./Gallery.scss";
 
 const galleryImages = [
-  images.meals,
-  images.elephant,
-  images.header1,
-  images.header2,
-  images.clinic,
+  images.gallery01,
+  images.gallery02,
+  images.gallery03,
+  images.gallery04,
+  images.gallery05,
+  images.gallery06,
+  images.gallery07,
+  images.gallery08,
+  images.gallery09,
+  images.gallery10,
+  images.gallery11,
+  images.gallery12,
 ];
 
 const Gallery = () => {
@@ -37,10 +44,9 @@ const Gallery = () => {
       <div className="app__gallery-content">
         <h2 className="headtext__cormorant">Gallery</h2>
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis{" "}
-          <span className="blue-text bold-text">ipsum turpis elit elit</span>{" "}
-          scelerisque egestas mu.
+          See more about our day care centre together with our{" "}
+          <span className="blue-text bold-text">effective admnistration </span>
+          and activities.
         </p>
         <div className="app__gallery-download">
           <HiDownload />
