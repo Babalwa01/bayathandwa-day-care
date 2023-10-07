@@ -15,7 +15,7 @@ const ContactUs = () => {
           <p><span className="bold-text">Email:</span> luciambolekwa56@gmail.com</p><br />
           <p className="bold-text operating-hours">Operating Hours</p>
           <p><span className="bold-text">Mon - Fri:</span> 06:00 - 18:00</p>
-          <p><span className="bold-text">Sat - Sun:</span> Closed</p>
+          <p><span className="bold-text">Sat, Sun, Public Holidays:</span> Closed (Negotiable)</p>
         </div>
       </div>
       <div className="app__wrapper_img">
