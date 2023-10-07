@@ -8,7 +8,7 @@ const activities = [
     image: images.header1,
   },
   {
-    title: "Primary health care activities from local clinic, and Hygiene",
+    title: "Primary health care activities from local clinic",
     image: images.clinic,
   },
   {
