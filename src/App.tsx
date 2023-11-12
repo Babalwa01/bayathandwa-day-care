@@ -4,6 +4,7 @@ import {
   Header,
   OurPrograms,
   Gallery,
+  Testimonial,
   ContactUs,
 } from "./container";
 import { Navbar } from "./components";
@@ -17,6 +18,7 @@ function App() {
         <AboutUs />
         <OurPrograms />
         <Gallery />
+        <Testimonial />
         <ContactUs />
         <Footer />
       </section>

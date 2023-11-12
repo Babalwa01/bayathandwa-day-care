@@ -1,0 +1,66 @@
+.app__testimonials {
+  width: 100%;
+  height: 100%;
+  padding: 3rem 1rem 0 1rem;
+  margin-top: 2rem;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 5rem;
+    padding-left: 4rem;
+    padding-top: 0rem;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-top: 6rem;
+  }
+
+  .app__testimonials_container {
+    display: flex;
+    width: max-content;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .app__testimonials_container::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.app__testimonials_card {
+  min-width: 18rem;
+  margin-right: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 0.8rem;
+
+  @media screen and (min-width: 1024px) {
+    min-width: 23rem;
+  }
+
+  @media screen and (min-width: 1280px) {
+    min-width: 27rem;
+  }
+
+  .testimonial-feedback {
+    font-size: 17px;
+    margin-left: 1rem;
+    font-style: italic;
+  }
+
+  .testimonial-name {
+    margin-top: 1.5rem;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+
+    @media screen and (min-width: 1024px) {
+      margin-top: 2rem;
+    }
+  }
+}
