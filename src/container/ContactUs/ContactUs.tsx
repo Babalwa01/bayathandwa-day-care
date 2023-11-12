@@ -39,10 +39,39 @@ const ContactUs = () => {
         </div>
         <div className="app__findus-contact-form">
           <form action="" method="post">
-            <input className="form-input" type="text" name="fname" id="fname" placeholder="Full name" required /><br />
-            <input className="form-input" type="text" name="pnumber" id="pnumber" placeholder="Phone number" required /><br />
-            <input className="form-input" type="text" name="email" id="email" placeholder="Email" /><br />
-            <textarea name="message" id="message" placeholder="Message" required></textarea><br />
+            <input
+              className="form-input"
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="Full name"
+              required
+            />
+            <br />
+            <input
+              className="form-input"
+              type="text"
+              name="pnumber"
+              id="pnumber"
+              placeholder="Phone number"
+              required
+            />
+            <br />
+            <input
+              className="form-input"
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+            />
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <br />
             <input className="submit-btn" type="submit" value="Send message" />
           </form>
         </div>
