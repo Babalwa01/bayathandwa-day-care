@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Mpho Mosia",
     feedback:
-      "My child is taken good care of. I am content and satisfied with Bayathanda Day Care services.",
+      "My child is taken good care of. I am content and satisfied with Bayathandwa Day Care services.",
     color: "#00adef",
   },
   {
