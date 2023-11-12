@@ -38,7 +38,7 @@ const ContactUs = () => {
           </div>
         </div>
         <div className="app__findus-contact-form">
-          <form action="" method="post">
+          <form action="./MailHandler.php" method="post">
             <input
               className="form-input"
               type="text"
