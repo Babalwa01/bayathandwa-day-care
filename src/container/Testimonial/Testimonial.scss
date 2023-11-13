@@ -31,10 +31,14 @@
 
 .app__testimonials_card {
   min-width: 18rem;
-  margin-right: 1.5rem;
+  margin-right: 0.9rem;
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 0.8rem;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 1.4rem;
+  }
 
   @media screen and (min-width: 820px) {
     margin-right: 2rem;
