@@ -18,13 +18,8 @@ const ContactUs = () => {
               Sterkspruit, Eastern Cape, <br className="line-break" /> 9762
             </p>
             <br />
-            <p className="bold-text operating-hours">Contact</p>
             <p>
               <span className="bold-text">Tel:</span> +27 82 421 9464
-            </p>
-            <p>
-              <span className="bold-text">Email:</span>{" "}
-              luciambolekwa56@gmail.com
             </p>
             <br />
             <p className="bold-text operating-hours">Operating Hours</p>
