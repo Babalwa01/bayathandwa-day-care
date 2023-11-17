@@ -1,6 +1,6 @@
 <?php
 	$stripHTML = true;
-	$owner_email = "luciambolekwa56@gmail.com";
+	$owner_email = "babalwambolekwa93@gmail.com";
 	// $headers = 'From:' . $_POST["contact_email"];
 	$subject = ' ' . $_POST["contact_subject"];
 	$messageBody = "";
