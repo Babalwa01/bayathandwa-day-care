@@ -44,7 +44,7 @@
 		if(!mail($owner_email, $subject, $messageBody)){
 			throw new Exception('mail failed');
 		}else{
-			header("Location: https://www.bayathandwadaycare.org/");
+			header("Location: https://bayathandwadaycare.org/");
 			die();
 			/*echo '<h3>Mail Sent</h3>';*/
 		}

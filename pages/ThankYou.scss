@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&family=Nunito:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app__thankyou {
+  width: 100%;
+  height: 100dvh;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  .app__thankyou-logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .app__thankyou-container {
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+
+    h1 {
+      font-size: 1.3rem;
+      margin-bottom: 0.7rem;
+      color: #6b6c70;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #6b6c70;
+    }
+
+    .app__thankyou-homepage {
+      background-color: #953786;
+      color: #ffffff;
+      height: 2.7rem;
+      width: 75%;
+      border-radius: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      margin-top: 1.5rem;
+      cursor: pointer;
+
+      @media screen and (min-width: 768px) and (max-width: 1023px) {
+        width: 40%;
+      }
+
+      @media screen and (min-width: 1024px) {
+        width: 53%;
+      }
+
+      @media screen and (min-width: 1280px) {
+        width: 40%;
+        margin-bottom: 0rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+  }
+}

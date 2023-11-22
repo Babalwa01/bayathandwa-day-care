@@ -33,7 +33,7 @@ const ContactUs = () => {
           </div>
         </div>
         <div className="app__findus-contact-form">
-          <form action="/MailHandler.php" method="post">
+          <form onSubmit={e => e.preventDefault()} action="https://bayathandwadaycare.org/form/mail.php" method="POST">
             <input
               className="form-input"
               type="text"
@@ -54,7 +54,7 @@ const ContactUs = () => {
             <br />
             <input
               className="form-input"
-              type="text"
+              type="email"
               name="email"
               id="email"
               placeholder="Email"
@@ -67,7 +67,19 @@ const ContactUs = () => {
               required
             ></textarea>
             <br />
-            <input className="submit-btn" type="submit" value="Send message" />
+            <input
+              type="hidden"
+              name="_subject"
+              value="Bayathandwa Day Care website message"
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://bayathandwadaycare.org/pages/ThankYou.tsx"
+            />
+            <button className="submit-btn" type="submit">
+              Send message
+            </button>
           </form>
         </div>
       </div>
