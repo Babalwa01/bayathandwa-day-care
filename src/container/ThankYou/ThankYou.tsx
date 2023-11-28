@@ -1,6 +1,5 @@
-import React from "react";
 import "./ThankYou.scss";
-import images from "../src/constants/images";
+import images from "../../constants/images";
 
 const ThankYou = () => {
   return (

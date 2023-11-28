@@ -1,27 +1,16 @@
-import {
-  AboutUs,
-  Footer,
-  Header,
-  OurPrograms,
-  Gallery,
-  Testimonial,
-  ContactUs,
-} from "./container";
-import { Navbar } from "./components";
-import './App.scss';
+import { Routes, Route } from "react-router-dom";
+import { ThankYou } from "./container";
+import MainPage from "./MainPage/MainPage";
+import "./App.scss";
 
 function App() {
   return (
-      <section className="app">
-        <Navbar />
-        <Header />
-        <AboutUs />
-        <OurPrograms />
-        <Gallery />
-        <Testimonial />
-        <ContactUs />
-        <Footer />
-      </section>
+    <section className="app">
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/thankyou" element={<ThankYou />} />
+      </Routes>
+    </section>
   );
 }
 

@@ -1,6 +1,35 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 import "./ContactUs.scss";
 
 const ContactUs = () => {
+  const form = React.useRef() as React.MutableRefObject<HTMLFormElement>;
+  const navigate = useNavigate();
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_agw8mjj",
+        "template_txqbwi5",
+        form.current,
+        "Q7A4kCQkTcbE9dm6o"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    (e.target as HTMLFormElement).reset();
+
+    navigate("/thankyou");
+  };
+
   return (
     <section id="Contact Us" className="app__findus flex__center">
       <div className="app__findus-contact">
@@ -33,7 +62,7 @@ const ContactUs = () => {
           </div>
         </div>
         <div className="app__findus-contact-form">
-          <form onSubmit={e => e.preventDefault()} action="https://bayathandwadaycare.org/form/mail.php" method="POST">
+          <form ref={form} onSubmit={sendEmail}>
             <input
               className="form-input"
               type="text"
@@ -67,16 +96,6 @@ const ContactUs = () => {
               required
             ></textarea>
             <br />
-            <input
-              type="hidden"
-              name="_subject"
-              value="Bayathandwa Day Care website message"
-            />
-            <input
-              type="hidden"
-              name="_next"
-              value="https://bayathandwadaycare.org/pages/ThankYou.tsx"
-            />
             <button className="submit-btn" type="submit">
               Send message
             </button>
