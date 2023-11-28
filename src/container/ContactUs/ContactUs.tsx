@@ -27,7 +27,9 @@ const ContactUs = () => {
       );
     (e.target as HTMLFormElement).reset();
 
-    navigate("/thankyou");
+    setTimeout(() => {
+      navigate("/thankyou");
+    }, 1000);
   };
 
   return (
