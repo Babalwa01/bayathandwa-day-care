@@ -107,6 +107,7 @@ const ContactUs = () => {
       <div className="app__wrapper_img">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27480.151792066576!2d27.166588321772398!3d-30.57700977991225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e8bd9bc19c21ffd%3A0x83d759ba0b4df5ed!2sBayathandwa%20Day%20Care%20Centre!5e0!3m2!1sen!2sza!4v1695236024780!5m2!1sen!2sza"
+          title="iFrame showing Bayathandwa Day Care centre on Google maps"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
