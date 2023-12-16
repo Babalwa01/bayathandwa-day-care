@@ -37,6 +37,8 @@
   .app__header-info {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
 
     .app__header-heading {
@@ -123,8 +125,8 @@
   }
 }
 
-.blue-text {
-  color: var(--blue-color);
+.darkorange-text {
+  color: var(--darkorange-color);
 }
 
 .purple-text {

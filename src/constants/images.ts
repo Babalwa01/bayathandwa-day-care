@@ -6,6 +6,7 @@ import header2 from "../assets/header2.jpg";
 import clinic from "../assets/clinic.jpg";
 import meals from "../assets/meals.jpg";
 import transport from "../assets/transport.jpg";
+import security from "../assets/security.jpg";
 import gallery01 from "../assets/gallery01.jpg";
 import gallery02 from "../assets/gallery02.jpg";
 import gallery03 from "../assets/gallery03.jpg";
@@ -28,6 +29,7 @@ export default {
   clinic,
   meals,
   transport,
+  security,
   gallery01,
   gallery02,
   gallery03,

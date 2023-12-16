@@ -26,7 +26,7 @@ const Header = () => {
             </span>{" "}
             we make early education and day care joyful, engaging and fun so
             children are happy to{" "}
-            <span className="blue-text bold-text">learn,</span>{" "}
+            <span className="darkorange-text bold-text">learn,</span>{" "}
             <span className="green-text bold-text">play</span> and{" "}
             <span className="purple-text bold-text">grow</span>.
           </p>
