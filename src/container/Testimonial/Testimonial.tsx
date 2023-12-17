@@ -1,5 +1,5 @@
 import "./Testimonial.scss";
-import { useRef } from "react";
+import { useEffect, useState } from "react";
 
 const testimonials = [
   {
@@ -29,14 +29,40 @@ const testimonials = [
 ];
 
 const Testimonial = () => {
-  const scrollRef = useRef<HTMLInputElement>(null);
+  const [current, setCurrent] = useState(0);
+  const [autoPlay, setAutoPlay] = useState(true);
+  let timeOut = null;
+
+  useEffect(() => {
+    timeOut =
+      autoPlay &&
+      setTimeout(() => {
+        slideRight();
+      }, 11000);
+  });
+
+  const slideRight = () => {
+    setCurrent(current === testimonials.length - 1 ? 0 : current + 1);
+  };
 
   return (
-    <section id="Testimonials" className="app__testimonials app__flex">
-      <div className="app__testimonials_container" ref={scrollRef}>
+    <section
+      id="Testimonials"
+      className="app__testimonials app__flex"
+      onMouseEnter={() => {
+        setAutoPlay(false);
+        clearTimeout(timeOut);
+      }}
+      onMouseLeave={() => setAutoPlay(true)}
+    >
+      <div className="app__testimonials_container">
         {testimonials.map((testimonial, index) => (
           <div
-            className="app__testimonials_card flex__center"
+            className={
+              index == current
+                ? "app__testimonials_card app__testimonials_card-active"
+                : "app__testimonials_card"
+            }
             key={`testimonial-${index + 1}`}
           >
             <svg
