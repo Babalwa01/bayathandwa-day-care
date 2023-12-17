@@ -31,7 +31,8 @@ const testimonials = [
 const Testimonial = () => {
   const [current, setCurrent] = useState(0);
   const [autoPlay, setAutoPlay] = useState(true);
-  let timeOut = null;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let timeOut: any = null;
 
   useEffect(() => {
     timeOut =
